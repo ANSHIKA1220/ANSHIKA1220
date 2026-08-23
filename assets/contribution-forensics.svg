@@ -1,294 +1,1749 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300" role="img" aria-labelledby="title desc">
-  <title id="title">ANSHIKA1220 - My year in code</title>
-  <desc id="desc">A neural constellation generated from 209 GitHub contributions.</desc>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="800"
+  height="300"
+  viewBox="0 0 800 300"
+  role="img"
+  aria-labelledby="title description"
+>
+  <title id="title">
+    ANSHIKA1220 - My year in code
+  </title>
+
+  <desc id="description">
+    A neural constellation generated from
+    216 GitHub contributions.
+  </desc>
+
   <defs>
-    <linearGradient id="background" x1="0" x2="1"><stop stop-color="#080d15"/><stop offset="1" stop-color="#110817"/></linearGradient>
-    <linearGradient id="rule" x1="0" x2="1"><stop stop-color="#20c9d8"/><stop offset="1" stop-color="#f15ad7"/></linearGradient>
-    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="2.8" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient
+      id="background"
+      x1="0"
+      x2="1"
+    >
+      <stop stop-color="#080d15" />
+      <stop
+        offset="1"
+        stop-color="#110817"
+      />
+    </linearGradient>
+
+    <linearGradient
+      id="accent"
+      x1="0"
+      x2="1"
+    >
+      <stop stop-color="#20c9d8" />
+      <stop
+        offset="1"
+        stop-color="#f15ad7"
+      />
+    </linearGradient>
+
+    <filter
+      id="glow"
+      x="-100%"
+      y="-100%"
+      width="300%"
+      height="300%"
+    >
+      <feGaussianBlur
+        stdDeviation="2.8"
+        result="blur"
+      />
+
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
     <style>
-      text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}.heading{font-size:18px;font-weight:650;fill:#f0f6fc}.sub{font-size:12px;fill:#8b949e}.count{font-size:13px;fill:#c9d1d9}.month{font-size:10px;fill:#687482}.connection{stroke-width:1;opacity:.15}.c0{stroke:#20c9d8}.c1{stroke:#f15ad7}.node{stroke:#d8fbff;stroke-opacity:.18}.n3,.n4{filter:url(#glow)}
-      @media(prefers-reduced-motion:reduce){animate{display:none}}
+      text {
+        font-family:
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Helvetica,
+          Arial,
+          sans-serif;
+      }
+
+      .heading {
+        font-size: 18px;
+        font-weight: 650;
+        fill: #f0f6fc;
+      }
+
+      .subtitle {
+        font-size: 12px;
+        fill: #8b949e;
+      }
+
+      .username {
+        font-size: 13px;
+        fill: #c9d1d9;
+      }
+
+      .month {
+        font-size: 10px;
+        fill: #687482;
+      }
+
+      .connection {
+        stroke-width: 1;
+        opacity: .15;
+      }
+
+      .connection-0 {
+        stroke: #20c9d8;
+      }
+
+      .connection-1 {
+        stroke: #f15ad7;
+      }
+
+      .node {
+        stroke: #d8fbff;
+        stroke-opacity: .18;
+      }
+
+      .node-3,
+      .node-4 {
+        filter: url(#glow);
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        animate {
+          display: none;
+        }
+      }
     </style>
   </defs>
-  <rect x="1" y="1" width="798" height="298" rx="14" fill="url(#background)" stroke="#30363d"/>
-  <text x="34" y="43" class="heading">MY YEAR IN CODE</text>
-  <text x="34" y="67" class="sub">209 contributions · updated daily</text>
-  <text x="766" y="43" class="count" text-anchor="end">ANSHIKA1220</text>
-  <path d="M34 88H766" stroke="#242c38"/><path d="M34 88H190" stroke="url(#rule)" stroke-width="2"/>
+
+  <rect
+    x="1"
+    y="1"
+    width="798"
+    height="298"
+    rx="14"
+    fill="url(#background)"
+    stroke="#30363d"
+  />
+
+  <text
+    x="34"
+    y="43"
+    class="heading"
+  >
+    MY YEAR IN CODE
+  </text>
+
+  <text
+    x="34"
+    y="67"
+    class="subtitle"
+  >
+    216 contributions · updated daily
+  </text>
+
+  <text
+    x="766"
+    y="43"
+    text-anchor="end"
+    class="username"
+  >
+    ANSHIKA1220
+  </text>
+
+  <path
+    d="M34 88H766"
+    stroke="#242c38"
+  />
+
+  <path
+    d="M34 88H190"
+    stroke="url(#accent)"
+    stroke-width="2"
+  />
+
   <g>
-    <line x1="94" y1="136" x2="107" y2="178" class="connection c0">
-      <animate attributeName="opacity" values=".08;.32;.08" dur="5.5s" begin="0s" repeatCount="indefinite"/>
-    </line>
-    <line x1="354" y1="206" x2="367" y2="178" class="connection c1">
-      <animate attributeName="opacity" values=".08;.32;.08" dur="5.5s" begin="0.55s" repeatCount="indefinite"/>
-    </line>
-    <line x1="419" y1="122" x2="458" y2="136" class="connection c0">
-      <animate attributeName="opacity" values=".08;.32;.08" dur="5.5s" begin="1.1s" repeatCount="indefinite"/>
-    </line>
-    <line x1="445" y1="136" x2="471" y2="164" class="connection c1">
-      <animate attributeName="opacity" values=".08;.32;.08" dur="5.5s" begin="1.6500000000000001s" repeatCount="indefinite"/>
-    </line>
-    <line x1="458" y1="136" x2="458" y2="164" class="connection c0">
-      <animate attributeName="opacity" values=".08;.32;.08" dur="5.5s" begin="2.2s" repeatCount="indefinite"/>
-    </line>
-    <line x1="523" y1="164" x2="549" y2="136" class="connection c1">
-      <animate attributeName="opacity" values=".08;.32;.08" dur="5.5s" begin="2.75s" repeatCount="indefinite"/>
-    </line>
-    <line x1="523" y1="178" x2="549" y2="164" class="connection c0">
-      <animate attributeName="opacity" values=".08;.32;.08" dur="5.5s" begin="3.3000000000000003s" repeatCount="indefinite"/>
-    </line>
-    <line x1="549" y1="164" x2="562" y2="136" class="connection c1">
-      <animate attributeName="opacity" values=".08;.32;.08" dur="5.5s" begin="3.8500000000000005s" repeatCount="indefinite"/>
-    </line>
-    <line x1="562" y1="136" x2="575" y2="178" class="connection c0">
-      <animate attributeName="opacity" values=".08;.32;.08" dur="5.5s" begin="4.4s" repeatCount="indefinite"/>
-    </line>
-    <line x1="562" y1="192" x2="575" y2="206" class="connection c1">
-      <animate attributeName="opacity" values=".08;.32;.08" dur="5.5s" begin="0s" repeatCount="indefinite"/>
-    </line>
-    <line x1="575" y1="178" x2="575" y2="206" class="connection c0">
-      <animate attributeName="opacity" values=".08;.32;.08" dur="5.5s" begin="0.55s" repeatCount="indefinite"/>
-    </line>
-    <line x1="601" y1="122" x2="601" y2="164" class="connection c1">
-      <animate attributeName="opacity" values=".08;.32;.08" dur="5.5s" begin="1.1s" repeatCount="indefinite"/>
-    </line>
-    <line x1="601" y1="150" x2="601" y2="178" class="connection c0">
-      <animate attributeName="opacity" values=".08;.32;.08" dur="5.5s" begin="1.6500000000000001s" repeatCount="indefinite"/>
-    </line>
-    <line x1="601" y1="178" x2="627" y2="206" class="connection c1">
-      <animate attributeName="opacity" values=".08;.32;.08" dur="5.5s" begin="2.2s" repeatCount="indefinite"/>
-    </line>
-    <line x1="614" y1="164" x2="627" y2="206" class="connection c0">
-      <animate attributeName="opacity" values=".08;.32;.08" dur="5.5s" begin="2.75s" repeatCount="indefinite"/>
-    </line>
-    <line x1="627" y1="206" x2="653" y2="206" class="connection c1">
-      <animate attributeName="opacity" values=".08;.32;.08" dur="5.5s" begin="3.3000000000000003s" repeatCount="indefinite"/>
-    </line>
-    <line x1="640" y1="192" x2="653" y2="206" class="connection c0">
-      <animate attributeName="opacity" values=".08;.32;.08" dur="5.5s" begin="3.8500000000000005s" repeatCount="indefinite"/>
-    </line>
-    <line x1="679" y1="122" x2="718" y2="122" class="connection c1">
-      <animate attributeName="opacity" values=".08;.32;.08" dur="5.5s" begin="4.4s" repeatCount="indefinite"/>
-    </line>
-    <line x1="679" y1="178" x2="692" y2="136" class="connection c0">
-      <animate attributeName="opacity" values=".08;.32;.08" dur="5.5s" begin="0s" repeatCount="indefinite"/>
-    </line>
-    <line x1="692" y1="122" x2="718" y2="150" class="connection c1">
-      <animate attributeName="opacity" values=".08;.32;.08" dur="5.5s" begin="0.55s" repeatCount="indefinite"/>
-    </line>
-    <line x1="692" y1="136" x2="705" y2="150" class="connection c0">
-      <animate attributeName="opacity" values=".08;.32;.08" dur="5.5s" begin="1.1s" repeatCount="indefinite"/>
-    </line>
-    <line x1="705" y1="150" x2="718" y2="192" class="connection c1">
-      <animate attributeName="opacity" values=".08;.32;.08" dur="5.5s" begin="1.6500000000000001s" repeatCount="indefinite"/>
-    </line>
-    <line x1="705" y1="178" x2="718" y2="164" class="connection c0">
-      <animate attributeName="opacity" values=".08;.32;.08" dur="5.5s" begin="2.2s" repeatCount="indefinite"/>
-    </line>
-    <line x1="718" y1="122" x2="718" y2="164" class="connection c1">
-      <animate attributeName="opacity" values=".08;.32;.08" dur="5.5s" begin="2.75s" repeatCount="indefinite"/>
-    </line>
-    <line x1="718" y1="150" x2="718" y2="178" class="connection c0">
-      <animate attributeName="opacity" values=".08;.32;.08" dur="5.5s" begin="3.3000000000000003s" repeatCount="indefinite"/>
-    </line>
-    <line x1="718" y1="164" x2="718" y2="206" class="connection c1">
-      <animate attributeName="opacity" values=".08;.32;.08" dur="5.5s" begin="3.8500000000000005s" repeatCount="indefinite"/>
-    </line></g>
+    
+        <line
+          x1="94"
+          y1="136"
+          x2="107"
+          y2="178"
+          class="connection connection-0"
+        >
+          <animate
+            attributeName="opacity"
+            values=".08;.32;.08"
+            dur="5.5s"
+            begin="0s"
+            repeatCount="indefinite"
+          />
+        </line>
+      
+        <line
+          x1="354"
+          y1="206"
+          x2="367"
+          y2="178"
+          class="connection connection-1"
+        >
+          <animate
+            attributeName="opacity"
+            values=".08;.32;.08"
+            dur="5.5s"
+            begin="0.55s"
+            repeatCount="indefinite"
+          />
+        </line>
+      
+        <line
+          x1="419"
+          y1="122"
+          x2="458"
+          y2="136"
+          class="connection connection-0"
+        >
+          <animate
+            attributeName="opacity"
+            values=".08;.32;.08"
+            dur="5.5s"
+            begin="1.1s"
+            repeatCount="indefinite"
+          />
+        </line>
+      
+        <line
+          x1="445"
+          y1="136"
+          x2="471"
+          y2="164"
+          class="connection connection-1"
+        >
+          <animate
+            attributeName="opacity"
+            values=".08;.32;.08"
+            dur="5.5s"
+            begin="1.6500000000000001s"
+            repeatCount="indefinite"
+          />
+        </line>
+      
+        <line
+          x1="458"
+          y1="136"
+          x2="458"
+          y2="164"
+          class="connection connection-0"
+        >
+          <animate
+            attributeName="opacity"
+            values=".08;.32;.08"
+            dur="5.5s"
+            begin="2.2s"
+            repeatCount="indefinite"
+          />
+        </line>
+      
+        <line
+          x1="523"
+          y1="164"
+          x2="549"
+          y2="136"
+          class="connection connection-1"
+        >
+          <animate
+            attributeName="opacity"
+            values=".08;.32;.08"
+            dur="5.5s"
+            begin="2.75s"
+            repeatCount="indefinite"
+          />
+        </line>
+      
+        <line
+          x1="523"
+          y1="178"
+          x2="549"
+          y2="164"
+          class="connection connection-0"
+        >
+          <animate
+            attributeName="opacity"
+            values=".08;.32;.08"
+            dur="5.5s"
+            begin="3.3000000000000003s"
+            repeatCount="indefinite"
+          />
+        </line>
+      
+        <line
+          x1="549"
+          y1="164"
+          x2="562"
+          y2="136"
+          class="connection connection-1"
+        >
+          <animate
+            attributeName="opacity"
+            values=".08;.32;.08"
+            dur="5.5s"
+            begin="3.8500000000000005s"
+            repeatCount="indefinite"
+          />
+        </line>
+      
+        <line
+          x1="562"
+          y1="136"
+          x2="575"
+          y2="178"
+          class="connection connection-0"
+        >
+          <animate
+            attributeName="opacity"
+            values=".08;.32;.08"
+            dur="5.5s"
+            begin="4.4s"
+            repeatCount="indefinite"
+          />
+        </line>
+      
+        <line
+          x1="562"
+          y1="192"
+          x2="575"
+          y2="206"
+          class="connection connection-1"
+        >
+          <animate
+            attributeName="opacity"
+            values=".08;.32;.08"
+            dur="5.5s"
+            begin="0s"
+            repeatCount="indefinite"
+          />
+        </line>
+      
+        <line
+          x1="575"
+          y1="178"
+          x2="575"
+          y2="206"
+          class="connection connection-0"
+        >
+          <animate
+            attributeName="opacity"
+            values=".08;.32;.08"
+            dur="5.5s"
+            begin="0.55s"
+            repeatCount="indefinite"
+          />
+        </line>
+      
+        <line
+          x1="601"
+          y1="122"
+          x2="601"
+          y2="164"
+          class="connection connection-1"
+        >
+          <animate
+            attributeName="opacity"
+            values=".08;.32;.08"
+            dur="5.5s"
+            begin="1.1s"
+            repeatCount="indefinite"
+          />
+        </line>
+      
+        <line
+          x1="601"
+          y1="150"
+          x2="601"
+          y2="178"
+          class="connection connection-0"
+        >
+          <animate
+            attributeName="opacity"
+            values=".08;.32;.08"
+            dur="5.5s"
+            begin="1.6500000000000001s"
+            repeatCount="indefinite"
+          />
+        </line>
+      
+        <line
+          x1="601"
+          y1="178"
+          x2="627"
+          y2="206"
+          class="connection connection-1"
+        >
+          <animate
+            attributeName="opacity"
+            values=".08;.32;.08"
+            dur="5.5s"
+            begin="2.2s"
+            repeatCount="indefinite"
+          />
+        </line>
+      
+        <line
+          x1="614"
+          y1="164"
+          x2="627"
+          y2="206"
+          class="connection connection-0"
+        >
+          <animate
+            attributeName="opacity"
+            values=".08;.32;.08"
+            dur="5.5s"
+            begin="2.75s"
+            repeatCount="indefinite"
+          />
+        </line>
+      
+        <line
+          x1="627"
+          y1="206"
+          x2="653"
+          y2="206"
+          class="connection connection-1"
+        >
+          <animate
+            attributeName="opacity"
+            values=".08;.32;.08"
+            dur="5.5s"
+            begin="3.3000000000000003s"
+            repeatCount="indefinite"
+          />
+        </line>
+      
+        <line
+          x1="640"
+          y1="192"
+          x2="653"
+          y2="206"
+          class="connection connection-0"
+        >
+          <animate
+            attributeName="opacity"
+            values=".08;.32;.08"
+            dur="5.5s"
+            begin="3.8500000000000005s"
+            repeatCount="indefinite"
+          />
+        </line>
+      
+        <line
+          x1="679"
+          y1="122"
+          x2="718"
+          y2="122"
+          class="connection connection-1"
+        >
+          <animate
+            attributeName="opacity"
+            values=".08;.32;.08"
+            dur="5.5s"
+            begin="4.4s"
+            repeatCount="indefinite"
+          />
+        </line>
+      
+        <line
+          x1="679"
+          y1="178"
+          x2="692"
+          y2="136"
+          class="connection connection-0"
+        >
+          <animate
+            attributeName="opacity"
+            values=".08;.32;.08"
+            dur="5.5s"
+            begin="0s"
+            repeatCount="indefinite"
+          />
+        </line>
+      
+        <line
+          x1="692"
+          y1="122"
+          x2="718"
+          y2="150"
+          class="connection connection-1"
+        >
+          <animate
+            attributeName="opacity"
+            values=".08;.32;.08"
+            dur="5.5s"
+            begin="0.55s"
+            repeatCount="indefinite"
+          />
+        </line>
+      
+        <line
+          x1="692"
+          y1="136"
+          x2="705"
+          y2="150"
+          class="connection connection-0"
+        >
+          <animate
+            attributeName="opacity"
+            values=".08;.32;.08"
+            dur="5.5s"
+            begin="1.1s"
+            repeatCount="indefinite"
+          />
+        </line>
+      
+        <line
+          x1="705"
+          y1="150"
+          x2="718"
+          y2="192"
+          class="connection connection-1"
+        >
+          <animate
+            attributeName="opacity"
+            values=".08;.32;.08"
+            dur="5.5s"
+            begin="1.6500000000000001s"
+            repeatCount="indefinite"
+          />
+        </line>
+      
+        <line
+          x1="705"
+          y1="178"
+          x2="718"
+          y2="164"
+          class="connection connection-0"
+        >
+          <animate
+            attributeName="opacity"
+            values=".08;.32;.08"
+            dur="5.5s"
+            begin="2.2s"
+            repeatCount="indefinite"
+          />
+        </line>
+      
+        <line
+          x1="718"
+          y1="122"
+          x2="718"
+          y2="164"
+          class="connection connection-1"
+        >
+          <animate
+            attributeName="opacity"
+            values=".08;.32;.08"
+            dur="5.5s"
+            begin="2.75s"
+            repeatCount="indefinite"
+          />
+        </line>
+      
+        <line
+          x1="718"
+          y1="150"
+          x2="718"
+          y2="178"
+          class="connection connection-0"
+        >
+          <animate
+            attributeName="opacity"
+            values=".08;.32;.08"
+            dur="5.5s"
+            begin="3.3000000000000003s"
+            repeatCount="indefinite"
+          />
+        </line>
+      
+        <line
+          x1="718"
+          y1="164"
+          x2="718"
+          y2="206"
+          class="connection connection-1"
+        >
+          <animate
+            attributeName="opacity"
+            values=".08;.32;.08"
+            dur="5.5s"
+            begin="3.8500000000000005s"
+            repeatCount="indefinite"
+          />
+        </line>
+      
+  </g>
+
   <g>
-    <circle cx="94" cy="136" r="2.7" fill="#20c9d8" class="node n1">
-      <title>2025-09-15: 2 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="2.75s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="107" cy="122" r="3.4" fill="#20c9d8" class="node n2">
-      <title>2025-09-21: 11 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="3.5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="107" cy="178" r="2.7" fill="#20c9d8" class="node n1">
-      <title>2025-09-25: 1 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="0.125s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="133" cy="164" r="2.7" fill="#20c9d8" class="node n1">
-      <title>2025-10-08: 1 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="1.75s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="315" cy="164" r="2.7" fill="#20c9d8" class="node n1">
-      <title>2026-01-14: 1 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="2.375s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="341" cy="136" r="2.7" fill="#20c9d8" class="node n1">
-      <title>2026-01-26: 1 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="0s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="354" cy="192" r="2.7" fill="#20c9d8" class="node n1">
-      <title>2026-02-06: 4 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="1.375s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="354" cy="206" r="2.7" fill="#20c9d8" class="node n1">
-      <title>2026-02-07: 4 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="1.5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="367" cy="178" r="2.7" fill="#20c9d8" class="node n1">
-      <title>2026-02-12: 1 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="2.125s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="419" cy="122" r="3.4" fill="#20c9d8" class="node n2">
-      <title>2026-03-08: 11 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="1.25s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="432" cy="206" r="2.7" fill="#20c9d8" class="node n1">
-      <title>2026-03-21: 2 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="2.875s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="445" cy="136" r="2.7" fill="#20c9d8" class="node n1">
-      <title>2026-03-23: 2 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="3.125s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="458" cy="136" r="3.4" fill="#20c9d8" class="node n2">
-      <title>2026-03-30: 7 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="0.125s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="458" cy="150" r="2.7" fill="#20c9d8" class="node n1">
-      <title>2026-03-31: 4 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="0.25s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="458" cy="164" r="2.7" fill="#20c9d8" class="node n1">
-      <title>2026-04-01: 1 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="0.375s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="471" cy="164" r="2.7" fill="#20c9d8" class="node n1">
-      <title>2026-04-08: 1 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="1.25s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="523" cy="164" r="3.4" fill="#20c9d8" class="node n2">
-      <title>2026-05-06: 6 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="0.875s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="523" cy="178" r="2.7" fill="#20c9d8" class="node n1">
-      <title>2026-05-07: 1 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="1s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="536" cy="178" r="2.7" fill="#20c9d8" class="node n1">
-      <title>2026-05-14: 2 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="1.875s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="549" cy="136" r="2.7" fill="#20c9d8" class="node n1">
-      <title>2026-05-18: 4 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="2.375s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="549" cy="164" r="2.7" fill="#20c9d8" class="node n1">
-      <title>2026-05-20: 2 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="2.625s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="562" cy="136" r="2.7" fill="#20c9d8" class="node n1">
-      <title>2026-05-25: 4 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="3.25s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="562" cy="192" r="2.7" fill="#20c9d8" class="node n1">
-      <title>2026-05-29: 1 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="3.75s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="575" cy="178" r="3.4" fill="#20c9d8" class="node n2">
-      <title>2026-06-04: 10 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="0.625s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="575" cy="206" r="2.7" fill="#20c9d8" class="node n1">
-      <title>2026-06-06: 1 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="0.875s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="588" cy="122" r="3.4" fill="#20c9d8" class="node n2">
-      <title>2026-06-07: 6 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="1s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="601" cy="122" r="2.7" fill="#20c9d8" class="node n1">
-      <title>2026-06-14: 1 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="1.875s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="601" cy="150" r="2.7" fill="#20c9d8" class="node n1">
-      <title>2026-06-16: 1 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="2.125s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="601" cy="164" r="2.7" fill="#20c9d8" class="node n1">
-      <title>2026-06-17: 1 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="2.25s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="601" cy="178" r="2.7" fill="#20c9d8" class="node n1">
-      <title>2026-06-18: 1 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="2.375s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="614" cy="164" r="2.7" fill="#20c9d8" class="node n1">
-      <title>2026-06-24: 1 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="3.125s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="627" cy="206" r="2.7" fill="#20c9d8" class="node n1">
-      <title>2026-07-04: 1 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="0.5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="640" cy="192" r="3.4" fill="#20c9d8" class="node n2">
-      <title>2026-07-10: 10 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="1.25s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="653" cy="206" r="2.7" fill="#20c9d8" class="node n1">
-      <title>2026-07-18: 1 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="2.25s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="679" cy="122" r="2.7" fill="#20c9d8" class="node n1">
-      <title>2026-07-26: 4 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="3.25s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="679" cy="178" r="2.7" fill="#20c9d8" class="node n1">
-      <title>2026-07-30: 5 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="3.75s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="692" cy="122" r="2.7" fill="#20c9d8" class="node n1">
-      <title>2026-08-02: 3 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="0.25s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="692" cy="136" r="2.7" fill="#20c9d8" class="node n1">
-      <title>2026-08-03: 2 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="0.375s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="705" cy="150" r="2.7" fill="#20c9d8" class="node n1">
-      <title>2026-08-11: 1 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="1.375s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="705" cy="178" r="2.7" fill="#20c9d8" class="node n1">
-      <title>2026-08-13: 2 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="1.625s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="718" cy="122" r="2.7" fill="#20c9d8" class="node n1">
-      <title>2026-08-16: 3 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="718" cy="136" r="5.1" fill="#f15ad7" class="node n4">
-      <title>2026-08-17: 18 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="2.125s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="718" cy="150" r="4.2" fill="#7c8cff" class="node n3">
-      <title>2026-08-18: 16 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="2.25s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="718" cy="164" r="3.4" fill="#20c9d8" class="node n2">
-      <title>2026-08-19: 9 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="2.375s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="718" cy="178" r="3.4" fill="#20c9d8" class="node n2">
-      <title>2026-08-20: 10 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="2.5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="718" cy="192" r="2.7" fill="#20c9d8" class="node n1">
-      <title>2026-08-21: 1 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="2.625s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="718" cy="206" r="5.1" fill="#f15ad7" class="node n4">
-      <title>2026-08-22: 22 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="2.75s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="731" cy="122" r="2.7" fill="#20c9d8" class="node n1">
-      <title>2026-08-23: 5 contributions</title>
-      <animate attributeName="opacity" values=".6;1;.72" dur="4.2s" begin="2.875s" repeatCount="indefinite"/>
-    </circle></g>
-  <g><text x="55" y="235" class="month">Aug</text><text x="81" y="235" class="month">Sep</text><text x="133" y="235" class="month">Oct</text><text x="185" y="235" class="month">Nov</text><text x="250" y="235" class="month">Dec</text><text x="302" y="235" class="month">Jan</text><text x="354" y="235" class="month">Feb</text><text x="406" y="235" class="month">Mar</text><text x="471" y="235" class="month">Apr</text><text x="523" y="235" class="month">May</text><text x="588" y="235" class="month">Jun</text><text x="640" y="235" class="month">Jul</text><text x="692" y="235" class="month">Aug</text></g>
-  <text x="34" y="274" class="sub">Each node is an active day. Brighter nodes mean more contributions.</text>
-  <circle cx="681" cy="271" r="3" fill="#20c9d8"/><text x="691" y="275" class="month">active</text>
-  <circle cx="733" cy="271" r="4" fill="#f15ad7" filter="url(#glow)"/><text x="743" y="275" class="month">high</text>
+    
+        <circle
+          cx="94"
+          cy="136"
+          r="2.7"
+          fill="#20c9d8"
+          class="node node-1"
+        >
+          <title>
+            2025-09-15:
+            2 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="2.75s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="107"
+          cy="122"
+          r="3.4"
+          fill="#20c9d8"
+          class="node node-2"
+        >
+          <title>
+            2025-09-21:
+            11 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="3.5s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="107"
+          cy="178"
+          r="2.7"
+          fill="#20c9d8"
+          class="node node-1"
+        >
+          <title>
+            2025-09-25:
+            1 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="0.125s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="133"
+          cy="164"
+          r="2.7"
+          fill="#20c9d8"
+          class="node node-1"
+        >
+          <title>
+            2025-10-08:
+            1 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="1.75s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="315"
+          cy="164"
+          r="2.7"
+          fill="#20c9d8"
+          class="node node-1"
+        >
+          <title>
+            2026-01-14:
+            1 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="2.375s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="341"
+          cy="136"
+          r="2.7"
+          fill="#20c9d8"
+          class="node node-1"
+        >
+          <title>
+            2026-01-26:
+            1 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="0s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="354"
+          cy="192"
+          r="2.7"
+          fill="#20c9d8"
+          class="node node-1"
+        >
+          <title>
+            2026-02-06:
+            4 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="1.375s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="354"
+          cy="206"
+          r="2.7"
+          fill="#20c9d8"
+          class="node node-1"
+        >
+          <title>
+            2026-02-07:
+            4 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="1.5s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="367"
+          cy="178"
+          r="2.7"
+          fill="#20c9d8"
+          class="node node-1"
+        >
+          <title>
+            2026-02-12:
+            1 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="2.125s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="419"
+          cy="122"
+          r="3.4"
+          fill="#20c9d8"
+          class="node node-2"
+        >
+          <title>
+            2026-03-08:
+            11 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="1.25s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="432"
+          cy="206"
+          r="2.7"
+          fill="#20c9d8"
+          class="node node-1"
+        >
+          <title>
+            2026-03-21:
+            2 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="2.875s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="445"
+          cy="136"
+          r="2.7"
+          fill="#20c9d8"
+          class="node node-1"
+        >
+          <title>
+            2026-03-23:
+            2 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="3.125s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="458"
+          cy="136"
+          r="3.4"
+          fill="#20c9d8"
+          class="node node-2"
+        >
+          <title>
+            2026-03-30:
+            7 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="0.125s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="458"
+          cy="150"
+          r="2.7"
+          fill="#20c9d8"
+          class="node node-1"
+        >
+          <title>
+            2026-03-31:
+            4 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="0.25s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="458"
+          cy="164"
+          r="2.7"
+          fill="#20c9d8"
+          class="node node-1"
+        >
+          <title>
+            2026-04-01:
+            1 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="0.375s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="471"
+          cy="164"
+          r="2.7"
+          fill="#20c9d8"
+          class="node node-1"
+        >
+          <title>
+            2026-04-08:
+            1 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="1.25s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="523"
+          cy="164"
+          r="3.4"
+          fill="#20c9d8"
+          class="node node-2"
+        >
+          <title>
+            2026-05-06:
+            6 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="0.875s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="523"
+          cy="178"
+          r="2.7"
+          fill="#20c9d8"
+          class="node node-1"
+        >
+          <title>
+            2026-05-07:
+            1 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="1s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="536"
+          cy="178"
+          r="2.7"
+          fill="#20c9d8"
+          class="node node-1"
+        >
+          <title>
+            2026-05-14:
+            2 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="1.875s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="549"
+          cy="136"
+          r="2.7"
+          fill="#20c9d8"
+          class="node node-1"
+        >
+          <title>
+            2026-05-18:
+            4 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="2.375s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="549"
+          cy="164"
+          r="2.7"
+          fill="#20c9d8"
+          class="node node-1"
+        >
+          <title>
+            2026-05-20:
+            2 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="2.625s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="562"
+          cy="136"
+          r="2.7"
+          fill="#20c9d8"
+          class="node node-1"
+        >
+          <title>
+            2026-05-25:
+            4 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="3.25s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="562"
+          cy="192"
+          r="2.7"
+          fill="#20c9d8"
+          class="node node-1"
+        >
+          <title>
+            2026-05-29:
+            1 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="3.75s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="575"
+          cy="178"
+          r="3.4"
+          fill="#20c9d8"
+          class="node node-2"
+        >
+          <title>
+            2026-06-04:
+            10 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="0.625s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="575"
+          cy="206"
+          r="2.7"
+          fill="#20c9d8"
+          class="node node-1"
+        >
+          <title>
+            2026-06-06:
+            1 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="0.875s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="588"
+          cy="122"
+          r="3.4"
+          fill="#20c9d8"
+          class="node node-2"
+        >
+          <title>
+            2026-06-07:
+            6 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="1s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="601"
+          cy="122"
+          r="2.7"
+          fill="#20c9d8"
+          class="node node-1"
+        >
+          <title>
+            2026-06-14:
+            1 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="1.875s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="601"
+          cy="150"
+          r="2.7"
+          fill="#20c9d8"
+          class="node node-1"
+        >
+          <title>
+            2026-06-16:
+            1 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="2.125s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="601"
+          cy="164"
+          r="2.7"
+          fill="#20c9d8"
+          class="node node-1"
+        >
+          <title>
+            2026-06-17:
+            1 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="2.25s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="601"
+          cy="178"
+          r="2.7"
+          fill="#20c9d8"
+          class="node node-1"
+        >
+          <title>
+            2026-06-18:
+            1 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="2.375s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="614"
+          cy="164"
+          r="2.7"
+          fill="#20c9d8"
+          class="node node-1"
+        >
+          <title>
+            2026-06-24:
+            1 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="3.125s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="627"
+          cy="206"
+          r="2.7"
+          fill="#20c9d8"
+          class="node node-1"
+        >
+          <title>
+            2026-07-04:
+            1 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="0.5s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="640"
+          cy="192"
+          r="3.4"
+          fill="#20c9d8"
+          class="node node-2"
+        >
+          <title>
+            2026-07-10:
+            10 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="1.25s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="653"
+          cy="206"
+          r="2.7"
+          fill="#20c9d8"
+          class="node node-1"
+        >
+          <title>
+            2026-07-18:
+            1 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="2.25s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="679"
+          cy="122"
+          r="2.7"
+          fill="#20c9d8"
+          class="node node-1"
+        >
+          <title>
+            2026-07-26:
+            4 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="3.25s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="679"
+          cy="178"
+          r="2.7"
+          fill="#20c9d8"
+          class="node node-1"
+        >
+          <title>
+            2026-07-30:
+            5 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="3.75s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="692"
+          cy="122"
+          r="2.7"
+          fill="#20c9d8"
+          class="node node-1"
+        >
+          <title>
+            2026-08-02:
+            3 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="0.25s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="692"
+          cy="136"
+          r="2.7"
+          fill="#20c9d8"
+          class="node node-1"
+        >
+          <title>
+            2026-08-03:
+            2 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="0.375s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="705"
+          cy="150"
+          r="2.7"
+          fill="#20c9d8"
+          class="node node-1"
+        >
+          <title>
+            2026-08-11:
+            1 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="1.375s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="705"
+          cy="178"
+          r="2.7"
+          fill="#20c9d8"
+          class="node node-1"
+        >
+          <title>
+            2026-08-13:
+            2 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="1.625s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="718"
+          cy="122"
+          r="2.7"
+          fill="#20c9d8"
+          class="node node-1"
+        >
+          <title>
+            2026-08-16:
+            3 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="2s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="718"
+          cy="136"
+          r="5.1"
+          fill="#f15ad7"
+          class="node node-4"
+        >
+          <title>
+            2026-08-17:
+            18 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="2.125s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="718"
+          cy="150"
+          r="4.2"
+          fill="#7c8cff"
+          class="node node-3"
+        >
+          <title>
+            2026-08-18:
+            16 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="2.25s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="718"
+          cy="164"
+          r="3.4"
+          fill="#20c9d8"
+          class="node node-2"
+        >
+          <title>
+            2026-08-19:
+            9 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="2.375s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="718"
+          cy="178"
+          r="3.4"
+          fill="#20c9d8"
+          class="node node-2"
+        >
+          <title>
+            2026-08-20:
+            10 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="2.5s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="718"
+          cy="192"
+          r="2.7"
+          fill="#20c9d8"
+          class="node node-1"
+        >
+          <title>
+            2026-08-21:
+            1 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="2.625s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="718"
+          cy="206"
+          r="5.1"
+          fill="#f15ad7"
+          class="node node-4"
+        >
+          <title>
+            2026-08-22:
+            22 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="2.75s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="731"
+          cy="122"
+          r="4.2"
+          fill="#7c8cff"
+          class="node node-3"
+        >
+          <title>
+            2026-08-23:
+            12 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="2.875s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+  </g>
+
+  <g>
+    
+        <text
+          x="55"
+          y="235"
+          class="month"
+        >
+          Aug
+        </text>
+      
+        <text
+          x="81"
+          y="235"
+          class="month"
+        >
+          Sep
+        </text>
+      
+        <text
+          x="133"
+          y="235"
+          class="month"
+        >
+          Oct
+        </text>
+      
+        <text
+          x="185"
+          y="235"
+          class="month"
+        >
+          Nov
+        </text>
+      
+        <text
+          x="250"
+          y="235"
+          class="month"
+        >
+          Dec
+        </text>
+      
+        <text
+          x="302"
+          y="235"
+          class="month"
+        >
+          Jan
+        </text>
+      
+        <text
+          x="354"
+          y="235"
+          class="month"
+        >
+          Feb
+        </text>
+      
+        <text
+          x="406"
+          y="235"
+          class="month"
+        >
+          Mar
+        </text>
+      
+        <text
+          x="471"
+          y="235"
+          class="month"
+        >
+          Apr
+        </text>
+      
+        <text
+          x="523"
+          y="235"
+          class="month"
+        >
+          May
+        </text>
+      
+        <text
+          x="588"
+          y="235"
+          class="month"
+        >
+          Jun
+        </text>
+      
+        <text
+          x="640"
+          y="235"
+          class="month"
+        >
+          Jul
+        </text>
+      
+        <text
+          x="692"
+          y="235"
+          class="month"
+        >
+          Aug
+        </text>
+      
+  </g>
+
+  <text
+    x="34"
+    y="274"
+    class="subtitle"
+  >
+    Each node is an active day.
+    Brighter nodes mean more contributions.
+  </text>
+
+  <circle
+    cx="681"
+    cy="271"
+    r="3"
+    fill="#20c9d8"
+  />
+
+  <text
+    x="691"
+    y="275"
+    class="month"
+  >
+    active
+  </text>
+
+  <circle
+    cx="733"
+    cy="271"
+    r="4"
+    fill="#f15ad7"
+    filter="url(#glow)"
+  />
+
+  <text
+    x="743"
+    y="275"
+    class="month"
+  >
+    high
+  </text>
 </svg>
