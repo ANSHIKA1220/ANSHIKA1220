@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/signal-forensics-header.svg?v=4" width="100%" alt="AI Engineer || Software Developer" />
+  <img src="./assets/signal-forensics-header.svg?v=4" width="100%" alt="Anshika Shrivastava- AI Engineer and Software Developer" />
 </p>
 
 <p align="center">
