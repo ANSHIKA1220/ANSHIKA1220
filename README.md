@@ -1,11 +1,9 @@
 <p align="center">
-  <img src="./assets/signal-forensics-header.svg?v=4" width="100%" alt="Anshika Shrivastava- AI Engineer and Software Developer" />
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/anshika-shrivastava-a2a078294/">LinkedIn</a> •
-  <a href="mailto:anshikashrivastava2012@gmail.com">Email</a> •
-  <a href="https://github.com/ANSHIKA1220/Resume">Résumé</a>
+  <img
+    src="./assets/signal-forensics-header.svg?v=5"
+    width="100%"
+    alt="AI/ML, Software Development, VIT Bhopal 2027"
+  />
 </p>
 
 ## About me
