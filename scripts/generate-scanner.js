@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 
 const username = process.env.GITHUB_USERNAME || "ANSHIKA1220";
 const token = process.env.GITHUB_TOKEN;
@@ -46,7 +46,7 @@ function mockWeeks() {
       return { contributionCount: count, contributionLevel: count > 5 ? "FOURTH_QUARTILE" : count ? "SECOND_QUARTILE" : "NONE", date: "preview", weekday };
     })
   }));
-  return { weeks, total };
+  return { weeks, total, preview: true };
 }
 
 function level(day) {
@@ -58,7 +58,7 @@ function escapeXml(value) {
   return String(value).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&apos;" }[c]));
 }
 
-function render({ weeks, total }) {
+function render({ weeks, total, preview = false }) {
   const size = 10;
   const gap = 3;
   const originX = 52;
@@ -71,35 +71,40 @@ function render({ weeks, total }) {
   })).join("\n");
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="800" height="275" viewBox="0 0 800 275" role="img" aria-labelledby="title desc">
-  <title id="title">${escapeXml(username)} signal forensics contribution scan</title>
-  <desc id="desc">An animated cyberpunk scanner generated from ${total} GitHub contributions.</desc>
+  <title id="title">${escapeXml(username)} GitHub contribution activity</title>
+  <desc id="desc">An animated grid generated from ${total} GitHub contributions.</desc>
   <defs>
     <linearGradient id="panel" x1="0" x2="1"><stop stop-color="#050914"/><stop offset="1" stop-color="#10061a"/></linearGradient>
-    <linearGradient id="scan" x1="0" x2="1"><stop stop-color="#00d9ff" stop-opacity="0"/><stop offset=".48" stop-color="#00d9ff"/><stop offset=".52" stop-color="#ff2bd6"/><stop offset="1" stop-color="#ff2bd6" stop-opacity="0"/></linearGradient>
     <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <style>
       text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.label{fill:#8b9bb4;font-size:11px;letter-spacing:1.8px}.value{fill:#e8fbff;font-size:14px}.cyan{fill:#00d9ff}.magenta{fill:#ff2bd6}.cell{stroke:#1d2940;stroke-width:.5}.l4{filter:url(#glow)}
-      @media(prefers-reduced-motion:reduce){animate{display:none}.scanline{display:none}}
+      @media(prefers-reduced-motion:reduce){animate{display:none}}
     </style>
   </defs>
   <rect x="1" y="1" width="798" height="273" rx="14" fill="url(#panel)" stroke="#25344d"/>
   <path d="M20 55H780M20 235H780" stroke="#1c2a43"/>
-  <text x="28" y="31" class="label cyan">CASE // CONTRIBUTION TELEMETRY</text>
+  <text x="28" y="31" class="label cyan">GITHUB CONTRIBUTIONS</text>
   <circle cx="744" cy="27" r="4" fill="#ff2bd6"><animate attributeName="opacity" values="1;.15;1" dur="1.4s" repeatCount="indefinite"/></circle>
   <text x="756" y="31" class="label magenta">LIVE</text>
-  <text x="28" y="79" class="label">SUBJECT</text><text x="108" y="79" class="value">${escapeXml(username)}</text>
-  <text x="360" y="79" class="label">SIGNALS VERIFIED</text><text x="515" y="79" class="value cyan">${total}</text>
-  <text x="647" y="79" class="label">STATUS</text><text x="708" y="79" class="value magenta">ACTIVE</text>
+  <text x="28" y="79" class="label">PROFILE</text><text x="108" y="79" class="value">${escapeXml(username)}</text>
+  <text x="360" y="79" class="label">CONTRIBUTIONS</text><text x="515" y="79" class="value cyan">${preview ? "PREVIEW" : total}</text>
+  <text x="647" y="79" class="label">UPDATED</text><text x="720" y="79" class="value magenta">DAILY</text>
   <g>${cells}</g>
-  <rect class="scanline" x="42" y="105" width="70" height="108" fill="url(#scan)" opacity=".55" filter="url(#glow)">
-    <animate attributeName="x" values="42;725;42" dur="9s" repeatCount="indefinite"/>
-  </rect>
-  <text x="28" y="258" class="label">MULTIMODAL TRACE: </text><text x="174" y="258" class="label cyan">AUTHENTIC ACTIVITY DETECTED</text>
-  <text x="628" y="258" class="label magenta">SCAN COMPLETE</text>
+  <text x="28" y="258" class="label">ONE COMMIT AT A TIME</text>
+  <text x="652" y="258" class="label magenta">KEEP BUILDING</text>
 </svg>`;
 }
 
 const data = await fetchWeeks();
 await mkdir(new URL("../assets/", import.meta.url), { recursive: true });
 await writeFile(output, render(data), "utf8");
+if (token) {
+  const readmePath = new URL("../README.md", import.meta.url);
+  const readme = await readFile(readmePath, "utf8");
+  const refreshed = readme.replace(
+    /contribution-forensics\.svg(?:\?v=[^\"]*)?/g,
+    `contribution-forensics.svg?v=${Date.now()}`
+  );
+  await writeFile(readmePath, refreshed, "utf8");
+}
 console.log(`Generated contribution-forensics.svg for ${username} (${data.total} contributions).`);
