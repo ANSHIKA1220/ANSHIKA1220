@@ -49,10 +49,10 @@ A medical imaging platform combining MONAI 3D U-Net segmentation with BLIP-based
 -  **9th Place — Health Hack 2025:** Ranked 9th among 267 teams for developing NeuroVision.
 -  B.Tech CSE (AI & ML), VIT Bhopal — **9.4 CGPA**.
 
-## GitHub activity
+## My year in code
 
 <p align="center">
-  <img src="./assets/contribution-forensics.svg?v=clean" width="100%" alt="Animated GitHub contribution grid" />
+  <img src="./assets/contribution-forensics.svg?v=constellation" width="100%" alt="Neural constellation generated from my GitHub contributions" />
 </p>
 
 <sub>Updated automatically from my GitHub contribution data.</sub>
