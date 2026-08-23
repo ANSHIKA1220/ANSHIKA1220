@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" role="img" aria-labelledby="title desc">
+  <title id="title">Anshika Shrivastava - Signal Forensics</title>
+  <desc id="desc">An animated cyberpunk identity card with a fingerprint, waveform, and verified AI engineering profile.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#030712"/><stop offset=".55" stop-color="#07101d"/><stop offset="1" stop-color="#16051d"/></linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#00e5ff"/><stop offset=".55" stop-color="#49a8ff"/><stop offset="1" stop-color="#ff2bd6"/></linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00e5ff" stop-opacity="0"/><stop offset=".5" stop-color="#00e5ff"/><stop offset="1" stop-color="#ff2bd6" stop-opacity="0"/></linearGradient>
+    <radialGradient id="fingerGlow"><stop stop-color="#00e5ff" stop-opacity=".16"/><stop offset="1" stop-color="#00e5ff" stop-opacity="0"/></radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.micro{font-size:11px;letter-spacing:2.2px;fill:#7f96b5}.label{font-size:12px;letter-spacing:1.6px;fill:#7f96b5}.value{font-size:14px;fill:#e7fbff}.cyan{fill:#00e5ff}.pink{fill:#ff2bd6}.ridge{fill:none;stroke:url(#neon);stroke-width:3;stroke-linecap:round;opacity:.9}@media(prefers-reduced-motion:reduce){animate{display:none}.moving{display:none}}</style>
+  </defs>
+  <rect x="1" y="1" width="998" height="358" rx="18" fill="url(#background)" stroke="#263a57"/>
+  <path d="M22 54H978M356 54V334" stroke="#1e3048"/><path d="M22 54h96M882 54h96" stroke="url(#neon)" stroke-width="2"/>
+  <text x="28" y="33" class="micro cyan">SIGNAL FORENSICS // PROFILE TRACE</text><text x="844" y="33" class="micro pink">CASE AS-1220</text>
+  <circle cx="968" cy="29" r="4" fill="#ff2bd6" filter="url(#glow)"><animate attributeName="opacity" values="1;.2;1" dur="1.5s" repeatCount="indefinite"/></circle>
+  <circle cx="178" cy="190" r="135" fill="url(#fingerGlow)"/><circle cx="178" cy="190" r="123" fill="none" stroke="#1a314b" stroke-dasharray="3 8"/>
+  <g class="ridge" filter="url(#glow)">
+    <path d="M78 196c0-72 40-120 101-120 64 0 105 49 105 123 0 54-15 94-37 126"/><path d="M97 227c-3-30-1-62 8-87 13-37 39-58 74-58 53 0 87 44 87 111 0 52-16 91-35 122"/><path d="M117 256c-4-25-5-58 2-86 8-37 29-61 61-61 43 0 70 37 70 91 0 43-13 80-29 108"/><path d="M139 281c-4-24-5-55-1-78 5-37 19-61 42-61 31 0 51 28 51 69 0 35-10 68-23 94"/><path d="M161 298c-3-27-4-60-1-80 3-27 9-42 20-42 18 0 30 19 30 47 0 28-8 55-18 78"/><path d="M74 155c13-59 51-96 105-96 73 0 122 57 122 142 0 51-12 91-29 124"/>
+  </g>
+  <rect class="moving" x="55" y="82" width="246" height="4" rx="2" fill="url(#scan)" filter="url(#glow)"><animate attributeName="y" values="82;300;82" dur="5.8s" repeatCount="indefinite"/></rect>
+  <text x="111" y="330" class="micro cyan">IDENTITY VERIFIED</text>
+  <text x="395" y="88" class="micro">SUBJECT</text><text x="395" y="122" fill="#f2fdff" font-size="28" font-weight="700">ANSHIKA SHRIVASTAVA</text><text x="395" y="149" class="label cyan">AI SYSTEMS ENGINEER • B.TECH CSE (AI &amp; ML)</text>
+  <path d="M396 206l12-8 12 17 12-45 12 70 12-54 12 28 12-16 12 9 12-34 12 56 12-44 12 26 12-9 12-25 12 50 12-31 12 12 12-6 12 19 12-43 12 66 12-46 12 18 12-9 12 2" fill="none" stroke="url(#neon)" stroke-width="3" filter="url(#glow)"/>
+  <circle cx="396" cy="206" r="4" fill="#00e5ff" filter="url(#glow)"><animate attributeName="cx" values="396;746;396" dur="6.5s" repeatCount="indefinite"/></circle><text x="770" y="210" class="micro pink">SIGNAL LIVE</text>
+  <rect x="395" y="258" width="168" height="54" rx="8" fill="#071525" stroke="#1d4560"/><rect x="576" y="258" width="168" height="54" rx="8" fill="#0d1023" stroke="#343260"/><rect x="757" y="258" width="200" height="54" rx="8" fill="#160b22" stroke="#57204f"/>
+  <text x="411" y="279" class="micro">ACADEMIC TRACE</text><text x="411" y="300" class="value cyan">9.4 CGPA</text><text x="592" y="279" class="micro">CORE SYSTEMS</text><text x="592" y="300" class="value">AGENTS + RAG</text><text x="773" y="279" class="micro">SIGNAL MODES</text><text x="773" y="300" class="value pink">TEXT • IMAGE • DATA</text>
+  <text x="395" y="337" class="micro">BUILDING EXPLAINABLE AI FROM NOISY, REAL-WORLD SIGNALS</text>
+</svg>
