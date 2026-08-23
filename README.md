@@ -63,7 +63,7 @@ docs/images      embeddings/CV      agents/linkage/RAG    grounded decision
 ## Live contribution forensics
 
 <p align="center">
-  <img src="./assets/contribution-forensics.svg" width="100%" alt="Animated contribution forensics scan generated from GitHub activity" />
+  <img src="./assets/contribution-forensics.svg?v=209" width="100%" alt="Animated contribution forensics scan generated from GitHub activity" />
 </p>
 
 <sub>Automatically regenerated from real GitHub contribution data.</sub>
