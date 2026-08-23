@@ -16,7 +16,7 @@ I’m a final-year Computer Science student at VIT Bhopal, specializing in AI & 
 - Currently interested in agentic AI, RAG, multimodal systems and software engineering.
 - Always happy to collaborate on projects that solve practical problems with AI.
 
-## Selected projects
+## Projects At A Glance
 
 ### LawBridge — Multi-Agent Legal AI
 
@@ -45,9 +45,9 @@ A medical imaging platform combining MONAI 3D U-Net segmentation with BLIP-based
 
 ## Highlights
 
-- 🥉 **2nd Runner-Up — Epsilon TeXpedition 2026:** Top 10 from 600+ registrations for developing [JourneySync AI](https://github.com/ANSHIKA1220/JustSync-AI).
-- 🏥 **9th Place — Health Hack 2025:** Ranked 9th among 267 teams for developing NeuroVision.
-- 🎓 B.Tech CSE (AI & ML), VIT Bhopal — **9.4 CGPA**.
+-  **2nd Runner-Up — Epsilon TeXpedition 2026:** Top 10 from 600+ registrations for developing [JourneySync AI](https://github.com/ANSHIKA1220/JustSync-AI).
+-  **9th Place — Health Hack 2025:** Ranked 9th among 267 teams for developing NeuroVision.
+-  B.Tech CSE (AI & ML), VIT Bhopal — **9.4 CGPA**.
 
 ## GitHub activity
 
