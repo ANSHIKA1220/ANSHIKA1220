@@ -32,8 +32,6 @@ Combined MONAI 3D U-Net segmentation with BLIP visual question answering for MRI
 `PyTorch` `MONAI` `BLIP` `LangGraph` `DVC` `MLflow` `FastAPI`
 
 
-```
-
 ## Technical trace
 
 **Languages:** `Python` `JavaScript` `Java` `SQL`  
