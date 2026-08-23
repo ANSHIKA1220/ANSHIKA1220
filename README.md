@@ -1,6 +1,6 @@
 <p align="center">
   <img
-    src="./assets/signal-forensics-header.svg?v=5"
+    src="./assets/signal-forensics-header.svg?v=6"
     width="100%"
     alt="AI/ML, Software Development, VIT Bhopal 2027"
   />
