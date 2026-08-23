@@ -10,15 +10,6 @@
 
 I’m an AI systems engineer and B.Tech CSE (AI & ML) student at VIT Bhopal with a **9.4 CGPA**. I build agentic, retrieval and multimodal systems that transform unstructured documents, images and operational data into grounded, explainable decisions.
 
-## Field experience
-
-### Tata Power Renewable Energy Ltd. · Project Intern
-
-`IT Application Operations & Automation` · `May–June 2026` · `Bengaluru`
-
-- Engineered an enterprise RAG assistant indexing **100+ internal policy documents** with all-MiniLM-L6-v2 embeddings, ChromaDB retrieval and quantized Mistral 7B inference.
-- Developed an Outlook AI copilot supporting **four workflows**: prioritization, summarization, response drafting and human-in-the-loop approval.
-- Investigated retrieval failures and improved grounding through prompt refinement, document chunking, metadata filtering and fallback behavior.
 
 ## Selected evidence files
 
@@ -40,11 +31,7 @@ Combined MONAI 3D U-Net segmentation with BLIP visual question answering for MRI
 
 `PyTorch` `MONAI` `BLIP` `LangGraph` `DVC` `MLflow` `FastAPI`
 
-## Investigation pipeline
 
-```text
-RAW EVIDENCE  →  REPRESENTATION  →  REASONING         →  VERIFIED OUTPUT
-docs/images      embeddings/CV      agents/linkage/RAG    grounded decision
 ```
 
 ## Technical trace
