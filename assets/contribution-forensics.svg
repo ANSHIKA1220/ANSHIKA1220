@@ -170,10 +170,10 @@
   <g>
     
         <line
-          x1="94"
+          x1="81"
           y1="136"
-          x2="107"
-          y2="178"
+          x2="94"
+          y2="122"
           class="connection connection-0"
         >
           <animate
@@ -186,10 +186,10 @@
         </line>
       
         <line
-          x1="354"
-          y1="206"
-          x2="367"
-          y2="178"
+          x1="94"
+          y1="178"
+          x2="120"
+          y2="164"
           class="connection connection-1"
         >
           <animate
@@ -202,10 +202,10 @@
         </line>
       
         <line
-          x1="419"
-          y1="122"
-          x2="458"
-          y2="136"
+          x1="341"
+          y1="192"
+          x2="354"
+          y2="178"
           class="connection connection-0"
         >
           <animate
@@ -213,47 +213,47 @@
             values=".08;.32;.08"
             dur="5.5s"
             begin="1.1s"
+            repeatCount="indefinite"
+          />
+        </line>
+      
+        <line
+          x1="406"
+          y1="122"
+          x2="432"
+          y2="136"
+          class="connection connection-1"
+        >
+          <animate
+            attributeName="opacity"
+            values=".08;.32;.08"
+            dur="5.5s"
+            begin="1.6500000000000001s"
+            repeatCount="indefinite"
+          />
+        </line>
+      
+        <line
+          x1="432"
+          y1="136"
+          x2="445"
+          y2="164"
+          class="connection connection-0"
+        >
+          <animate
+            attributeName="opacity"
+            values=".08;.32;.08"
+            dur="5.5s"
+            begin="2.2s"
             repeatCount="indefinite"
           />
         </line>
       
         <line
           x1="445"
-          y1="136"
-          x2="471"
-          y2="164"
-          class="connection connection-1"
-        >
-          <animate
-            attributeName="opacity"
-            values=".08;.32;.08"
-            dur="5.5s"
-            begin="1.6500000000000001s"
-            repeatCount="indefinite"
-          />
-        </line>
-      
-        <line
-          x1="458"
-          y1="136"
+          y1="150"
           x2="458"
           y2="164"
-          class="connection connection-0"
-        >
-          <animate
-            attributeName="opacity"
-            values=".08;.32;.08"
-            dur="5.5s"
-            begin="2.2s"
-            repeatCount="indefinite"
-          />
-        </line>
-      
-        <line
-          x1="523"
-          y1="164"
-          x2="549"
-          y2="136"
           class="connection connection-1"
         >
           <animate
@@ -266,10 +266,10 @@
         </line>
       
         <line
-          x1="523"
-          y1="178"
-          x2="549"
-          y2="164"
+          x1="510"
+          y1="164"
+          x2="523"
+          y2="178"
           class="connection connection-0"
         >
           <animate
@@ -282,9 +282,9 @@
         </line>
       
         <line
-          x1="549"
-          y1="164"
-          x2="562"
+          x1="523"
+          y1="178"
+          x2="536"
           y2="136"
           class="connection connection-1"
         >
@@ -298,10 +298,10 @@
         </line>
       
         <line
-          x1="562"
+          x1="536"
           y1="136"
-          x2="575"
-          y2="178"
+          x2="536"
+          y2="164"
           class="connection connection-0"
         >
           <animate
@@ -315,9 +315,9 @@
       
         <line
           x1="562"
-          y1="192"
-          x2="575"
-          y2="206"
+          y1="178"
+          x2="588"
+          y2="164"
           class="connection connection-1"
         >
           <animate
@@ -330,10 +330,10 @@
         </line>
       
         <line
-          x1="575"
-          y1="178"
-          x2="575"
-          y2="206"
+          x1="562"
+          y1="206"
+          x2="588"
+          y2="178"
           class="connection connection-0"
         >
           <animate
@@ -346,9 +346,9 @@
         </line>
       
         <line
-          x1="601"
+          x1="575"
           y1="122"
-          x2="601"
+          x2="588"
           y2="164"
           class="connection connection-1"
         >
@@ -362,10 +362,10 @@
         </line>
       
         <line
-          x1="601"
-          y1="150"
-          x2="601"
-          y2="178"
+          x1="588"
+          y1="122"
+          x2="588"
+          y2="150"
           class="connection connection-0"
         >
           <animate
@@ -378,10 +378,10 @@
         </line>
       
         <line
-          x1="601"
+          x1="588"
           y1="178"
-          x2="627"
-          y2="206"
+          x2="601"
+          y2="164"
           class="connection connection-1"
         >
           <animate
@@ -394,10 +394,10 @@
         </line>
       
         <line
-          x1="614"
-          y1="164"
-          x2="627"
-          y2="206"
+          x1="640"
+          y1="206"
+          x2="666"
+          y2="178"
           class="connection connection-0"
         >
           <animate
@@ -410,10 +410,10 @@
         </line>
       
         <line
-          x1="627"
-          y1="206"
-          x2="653"
-          y2="206"
+          x1="666"
+          y1="122"
+          x2="679"
+          y2="136"
           class="connection connection-1"
         >
           <animate
@@ -426,10 +426,10 @@
         </line>
       
         <line
-          x1="640"
-          y1="192"
-          x2="653"
-          y2="206"
+          x1="666"
+          y1="178"
+          x2="692"
+          y2="150"
           class="connection connection-0"
         >
           <animate
@@ -444,39 +444,7 @@
         <line
           x1="679"
           y1="122"
-          x2="718"
-          y2="122"
-          class="connection connection-1"
-        >
-          <animate
-            attributeName="opacity"
-            values=".08;.32;.08"
-            dur="5.5s"
-            begin="4.4s"
-            repeatCount="indefinite"
-          />
-        </line>
-      
-        <line
-          x1="679"
-          y1="178"
           x2="692"
-          y2="136"
-          class="connection connection-0"
-        >
-          <animate
-            attributeName="opacity"
-            values=".08;.32;.08"
-            dur="5.5s"
-            begin="0s"
-            repeatCount="indefinite"
-          />
-        </line>
-      
-        <line
-          x1="692"
-          y1="122"
-          x2="718"
           y2="150"
           class="connection connection-1"
         >
@@ -484,6 +452,38 @@
             attributeName="opacity"
             values=".08;.32;.08"
             dur="5.5s"
+            begin="4.4s"
+            repeatCount="indefinite"
+          />
+        </line>
+      
+        <line
+          x1="679"
+          y1="136"
+          x2="692"
+          y2="178"
+          class="connection connection-0"
+        >
+          <animate
+            attributeName="opacity"
+            values=".08;.32;.08"
+            dur="5.5s"
+            begin="0s"
+            repeatCount="indefinite"
+          />
+        </line>
+      
+        <line
+          x1="692"
+          y1="150"
+          x2="705"
+          y2="136"
+          class="connection connection-1"
+        >
+          <animate
+            attributeName="opacity"
+            values=".08;.32;.08"
+            dur="5.5s"
             begin="0.55s"
             repeatCount="indefinite"
           />
@@ -491,7 +491,7 @@
       
         <line
           x1="692"
-          y1="136"
+          y1="178"
           x2="705"
           y2="150"
           class="connection connection-0"
@@ -507,9 +507,9 @@
       
         <line
           x1="705"
-          y1="150"
-          x2="718"
-          y2="192"
+          y1="122"
+          x2="705"
+          y2="150"
           class="connection connection-1"
         >
           <animate
@@ -523,9 +523,9 @@
       
         <line
           x1="705"
-          y1="178"
-          x2="718"
-          y2="164"
+          y1="136"
+          x2="705"
+          y2="178"
           class="connection connection-0"
         >
           <animate
@@ -538,10 +538,10 @@
         </line>
       
         <line
-          x1="718"
-          y1="122"
-          x2="718"
-          y2="164"
+          x1="705"
+          y1="164"
+          x2="705"
+          y2="192"
           class="connection connection-1"
         >
           <animate
@@ -553,60 +553,12 @@
           />
         </line>
       
-        <line
-          x1="718"
-          y1="150"
-          x2="718"
-          y2="178"
-          class="connection connection-0"
-        >
-          <animate
-            attributeName="opacity"
-            values=".08;.32;.08"
-            dur="5.5s"
-            begin="3.3000000000000003s"
-            repeatCount="indefinite"
-          />
-        </line>
-      
-        <line
-          x1="718"
-          y1="164"
-          x2="718"
-          y2="206"
-          class="connection connection-1"
-        >
-          <animate
-            attributeName="opacity"
-            values=".08;.32;.08"
-            dur="5.5s"
-            begin="3.8500000000000005s"
-            repeatCount="indefinite"
-          />
-        </line>
-      
-        <line
-          x1="718"
-          y1="178"
-          x2="731"
-          y2="136"
-          class="connection connection-0"
-        >
-          <animate
-            attributeName="opacity"
-            values=".08;.32;.08"
-            dur="5.5s"
-            begin="4.4s"
-            repeatCount="indefinite"
-          />
-        </line>
-      
   </g>
 
   <g>
     
         <circle
-          cx="94"
+          cx="81"
           cy="136"
           r="2.7"
           fill="#20c9d8"
@@ -621,13 +573,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="2.75s"
+            begin="1.875s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="107"
+          cx="94"
           cy="122"
           r="3.4"
           fill="#20c9d8"
@@ -642,13 +594,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="3.5s"
+            begin="2.625s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="107"
+          cx="94"
           cy="178"
           r="2.7"
           fill="#20c9d8"
@@ -663,13 +615,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="0.125s"
+            begin="3.125s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="133"
+          cx="120"
           cy="164"
           r="2.7"
           fill="#20c9d8"
@@ -684,13 +636,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="1.75s"
+            begin="0.875s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="315"
+          cx="302"
           cy="164"
           r="2.7"
           fill="#20c9d8"
@@ -705,13 +657,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="2.375s"
+            begin="1.5s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="341"
+          cx="328"
           cy="136"
           r="2.7"
           fill="#20c9d8"
@@ -726,13 +678,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="0s"
+            begin="3s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="354"
+          cx="341"
           cy="192"
           r="2.7"
           fill="#20c9d8"
@@ -747,13 +699,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="1.375s"
+            begin="0.5s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="354"
+          cx="341"
           cy="206"
           r="2.7"
           fill="#20c9d8"
@@ -768,13 +720,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="1.5s"
+            begin="0.625s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="367"
+          cx="354"
           cy="178"
           r="2.7"
           fill="#20c9d8"
@@ -789,13 +741,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="2.125s"
+            begin="1.25s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="419"
+          cx="406"
           cy="122"
           r="3.4"
           fill="#20c9d8"
@@ -810,13 +762,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="1.25s"
+            begin="0.375s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="432"
+          cx="419"
           cy="206"
           r="2.7"
           fill="#20c9d8"
@@ -831,13 +783,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="2.875s"
+            begin="2s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="445"
+          cx="432"
           cy="136"
           r="2.7"
           fill="#20c9d8"
@@ -852,13 +804,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="3.125s"
+            begin="2.25s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="458"
+          cx="445"
           cy="136"
           r="3.4"
           fill="#20c9d8"
@@ -873,13 +825,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="0.125s"
+            begin="3.125s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="458"
+          cx="445"
           cy="150"
           r="2.7"
           fill="#20c9d8"
@@ -894,13 +846,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="0.25s"
+            begin="3.25s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="458"
+          cx="445"
           cy="164"
           r="2.7"
           fill="#20c9d8"
@@ -915,13 +867,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="0.375s"
+            begin="3.375s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="471"
+          cx="458"
           cy="164"
           r="2.7"
           fill="#20c9d8"
@@ -936,13 +888,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="1.25s"
+            begin="0.375s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="523"
+          cx="510"
           cy="164"
           r="3.4"
           fill="#20c9d8"
@@ -957,13 +909,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="0.875s"
+            begin="0s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="523"
+          cx="510"
           cy="178"
           r="2.7"
           fill="#20c9d8"
@@ -978,13 +930,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="1s"
+            begin="0.125s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="536"
+          cx="523"
           cy="178"
           r="2.7"
           fill="#20c9d8"
@@ -999,13 +951,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="1.875s"
+            begin="1s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="549"
+          cx="536"
           cy="136"
           r="2.7"
           fill="#20c9d8"
@@ -1020,13 +972,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="2.375s"
+            begin="1.5s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="549"
+          cx="536"
           cy="164"
           r="2.7"
           fill="#20c9d8"
@@ -1041,13 +993,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="2.625s"
+            begin="1.75s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="562"
+          cx="549"
           cy="136"
           r="2.7"
           fill="#20c9d8"
@@ -1062,13 +1014,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="3.25s"
+            begin="2.375s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="562"
+          cx="549"
           cy="192"
           r="2.7"
           fill="#20c9d8"
@@ -1083,13 +1035,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="3.75s"
+            begin="2.875s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="575"
+          cx="562"
           cy="178"
           r="3.4"
           fill="#20c9d8"
@@ -1104,13 +1056,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="0.625s"
+            begin="3.625s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="575"
+          cx="562"
           cy="206"
           r="2.7"
           fill="#20c9d8"
@@ -1125,13 +1077,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="0.875s"
+            begin="0s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="588"
+          cx="575"
           cy="122"
           r="3.4"
           fill="#20c9d8"
@@ -1146,13 +1098,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="1s"
+            begin="0.125s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="601"
+          cx="588"
           cy="122"
           r="2.7"
           fill="#20c9d8"
@@ -1167,13 +1119,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="1.875s"
+            begin="1s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="601"
+          cx="588"
           cy="150"
           r="2.7"
           fill="#20c9d8"
@@ -1188,13 +1140,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="2.125s"
+            begin="1.25s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="601"
+          cx="588"
           cy="164"
           r="2.7"
           fill="#20c9d8"
@@ -1209,13 +1161,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="2.25s"
+            begin="1.375s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="601"
+          cx="588"
           cy="178"
           r="2.7"
           fill="#20c9d8"
@@ -1230,13 +1182,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="2.375s"
+            begin="1.5s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="614"
+          cx="601"
           cy="164"
           r="2.7"
           fill="#20c9d8"
@@ -1251,13 +1203,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="3.125s"
+            begin="2.25s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="627"
+          cx="614"
           cy="206"
           r="2.7"
           fill="#20c9d8"
@@ -1272,13 +1224,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="0.5s"
+            begin="3.5s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="640"
+          cx="627"
           cy="192"
           r="3.4"
           fill="#20c9d8"
@@ -1293,13 +1245,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="1.25s"
+            begin="0.375s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="653"
+          cx="640"
           cy="206"
           r="2.7"
           fill="#20c9d8"
@@ -1314,13 +1266,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="2.25s"
+            begin="1.375s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="679"
+          cx="666"
           cy="122"
           r="2.7"
           fill="#20c9d8"
@@ -1335,13 +1287,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="3.25s"
+            begin="2.375s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="679"
+          cx="666"
           cy="178"
           r="2.7"
           fill="#20c9d8"
@@ -1356,13 +1308,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="3.75s"
+            begin="2.875s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="692"
+          cx="679"
           cy="122"
           r="2.7"
           fill="#20c9d8"
@@ -1377,13 +1329,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="0.25s"
+            begin="3.25s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="692"
+          cx="679"
           cy="136"
           r="2.7"
           fill="#20c9d8"
@@ -1398,13 +1350,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="0.375s"
+            begin="3.375s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="705"
+          cx="692"
           cy="150"
           r="2.7"
           fill="#20c9d8"
@@ -1419,13 +1371,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="1.375s"
+            begin="0.5s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="705"
+          cx="692"
           cy="178"
           r="2.7"
           fill="#20c9d8"
@@ -1440,13 +1392,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="1.625s"
+            begin="0.75s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="718"
+          cx="705"
           cy="122"
           r="2.7"
           fill="#20c9d8"
@@ -1461,13 +1413,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="2s"
+            begin="1.125s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="718"
+          cx="705"
           cy="136"
           r="5.1"
           fill="#f15ad7"
@@ -1482,13 +1434,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="2.125s"
+            begin="1.25s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="718"
+          cx="705"
           cy="150"
           r="4.2"
           fill="#7c8cff"
@@ -1503,13 +1455,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="2.25s"
+            begin="1.375s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="718"
+          cx="705"
           cy="164"
           r="3.4"
           fill="#20c9d8"
@@ -1524,13 +1476,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="2.375s"
+            begin="1.5s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="718"
+          cx="705"
           cy="178"
           r="3.4"
           fill="#20c9d8"
@@ -1545,13 +1497,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="2.5s"
+            begin="1.625s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="718"
+          cx="705"
           cy="192"
           r="2.7"
           fill="#20c9d8"
@@ -1566,13 +1518,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="2.625s"
+            begin="1.75s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="718"
+          cx="705"
           cy="206"
           r="5.1"
           fill="#f15ad7"
@@ -1587,13 +1539,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="2.75s"
+            begin="1.875s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="731"
+          cx="718"
           cy="122"
           r="4.2"
           fill="#7c8cff"
@@ -1608,13 +1560,13 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="2.875s"
+            begin="2s"
             repeatCount="indefinite"
           />
         </circle>
       
         <circle
-          cx="731"
+          cx="718"
           cy="136"
           r="3.4"
           fill="#20c9d8"
@@ -1629,7 +1581,7 @@
             attributeName="opacity"
             values=".6;1;.72"
             dur="4.2s"
-            begin="3s"
+            begin="2.125s"
             repeatCount="indefinite"
           />
         </circle>
@@ -1647,7 +1599,7 @@
         </text>
       
         <text
-          x="81"
+          x="68"
           y="235"
           class="month"
         >
@@ -1655,7 +1607,7 @@
         </text>
       
         <text
-          x="133"
+          x="120"
           y="235"
           class="month"
         >
@@ -1663,7 +1615,7 @@
         </text>
       
         <text
-          x="185"
+          x="172"
           y="235"
           class="month"
         >
@@ -1671,7 +1623,7 @@
         </text>
       
         <text
-          x="250"
+          x="237"
           y="235"
           class="month"
         >
@@ -1679,7 +1631,7 @@
         </text>
       
         <text
-          x="302"
+          x="289"
           y="235"
           class="month"
         >
@@ -1687,7 +1639,7 @@
         </text>
       
         <text
-          x="354"
+          x="341"
           y="235"
           class="month"
         >
@@ -1695,7 +1647,7 @@
         </text>
       
         <text
-          x="406"
+          x="393"
           y="235"
           class="month"
         >
@@ -1703,7 +1655,7 @@
         </text>
       
         <text
-          x="471"
+          x="458"
           y="235"
           class="month"
         >
@@ -1711,7 +1663,7 @@
         </text>
       
         <text
-          x="523"
+          x="510"
           y="235"
           class="month"
         >
@@ -1719,7 +1671,7 @@
         </text>
       
         <text
-          x="588"
+          x="575"
           y="235"
           class="month"
         >
@@ -1727,7 +1679,7 @@
         </text>
       
         <text
-          x="640"
+          x="627"
           y="235"
           class="month"
         >
@@ -1735,7 +1687,7 @@
         </text>
       
         <text
-          x="692"
+          x="679"
           y="235"
           class="month"
         >
