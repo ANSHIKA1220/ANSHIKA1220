@@ -12,7 +12,7 @@
 
   <desc id="description">
     A neural constellation generated from
-    222 GitHub contributions.
+    223 GitHub contributions.
   </desc>
 
   <defs>
@@ -144,7 +144,7 @@
     y="67"
     class="subtitle"
   >
-    222 contributions · updated daily
+    223 contributions · updated daily
   </text>
 
   <text
@@ -539,9 +539,9 @@
       
         <line
           x1="705"
-          y1="164"
-          x2="705"
-          y2="192"
+          y1="150"
+          x2="731"
+          y2="136"
           class="connection connection-1"
         >
           <animate
@@ -549,6 +549,22 @@
             values=".08;.32;.08"
             dur="5.5s"
             begin="2.75s"
+            repeatCount="indefinite"
+          />
+        </line>
+      
+        <line
+          x1="705"
+          y1="164"
+          x2="705"
+          y2="192"
+          class="connection connection-0"
+        >
+          <animate
+            attributeName="opacity"
+            values=".08;.32;.08"
+            dur="5.5s"
+            begin="3.3000000000000003s"
             repeatCount="indefinite"
           />
         </line>
@@ -910,27 +926,6 @@
             values=".6;1;.72"
             dur="4.2s"
             begin="0s"
-            repeatCount="indefinite"
-          />
-        </circle>
-      
-        <circle
-          cx="510"
-          cy="178"
-          r="2.7"
-          fill="#20c9d8"
-          class="node node-1"
-        >
-          <title>
-            2026-05-07:
-            1 contributions
-          </title>
-
-          <animate
-            attributeName="opacity"
-            values=".6;1;.72"
-            dur="4.2s"
-            begin="0.125s"
             repeatCount="indefinite"
           />
         </circle>
@@ -1582,6 +1577,27 @@
             values=".6;1;.72"
             dur="4.2s"
             begin="2.125s"
+            repeatCount="indefinite"
+          />
+        </circle>
+      
+        <circle
+          cx="731"
+          cy="136"
+          r="2.7"
+          fill="#20c9d8"
+          class="node node-1"
+        >
+          <title>
+            2026-08-31:
+            2 contributions
+          </title>
+
+          <animate
+            attributeName="opacity"
+            values=".6;1;.72"
+            dur="4.2s"
+            begin="3s"
             repeatCount="indefinite"
           />
         </circle>
