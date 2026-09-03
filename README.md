@@ -50,7 +50,7 @@ A medical imaging platform combining MONAI 3D U-Net segmentation with BLIP-based
 ## My year in code
 
 <p align="center">
- <img src="https://raw.githubusercontent.com/ANSHIKA1220/ANSHIKA1220/main/assets/contribution-forensics.svg?v=1788419578723" width="100%" alt="Neural constellation generated from my GitHub contributions" />
+ <img src="https://raw.githubusercontent.com/ANSHIKA1220/ANSHIKA1220/main/assets/contribution-forensics.svg?v=1788448720411" width="100%" alt="Neural constellation generated from my GitHub contributions" />
 </p>
 
 <sub>Updated automatically from my GitHub contribution data.</sub>
